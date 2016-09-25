@@ -28,7 +28,7 @@
             <string>background_index[0] = bg_9_1;
 background_index[1] = bg_9_2;
 background_index[2] = bg_9_3;
-background_index[3] = -1;
+background_index[3] = bg_extraStars;
 background_index[4] = -1;
 
 obj_dog.whichDog = 7;
