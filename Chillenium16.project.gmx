@@ -78,7 +78,6 @@
       </sprites>
     </sprites>
     <sprite>sprites\comet</sprite>
-    <sprite>sprites\spr_eyes</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
