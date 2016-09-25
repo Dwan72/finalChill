@@ -63,7 +63,6 @@
       <sprite>sprites\spr_pause9</sprite>
     </sprites>
     <sprite>sprites\spr_pPause</sprite>
-    <sprite>sprites\spr_fireBall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
