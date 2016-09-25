@@ -97,10 +97,10 @@ draw_set_font(fnt_options);
 draw_set_color(c_white);
 
 var m;
-for (m = 0; m &lt; array_length_1d(m); m += 1) {
+/*for (m = 0; m &lt; array_length_1d(m); m += 1) {
     draw_text(x + space * m, y, string(menu[m]));
     
-}
+}*/
 draw_sprite(sprite_index, 0, x + 215 * mpos, y);
 </string>
           </argument>

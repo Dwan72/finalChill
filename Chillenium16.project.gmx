@@ -6,8 +6,10 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\BGsoundIntro</sound>
-    <sound>sound\BGsound</sound>
-    <sound>sound\sound2</sound>
+    <sound>sound\BGM</sound>
+    <sound>sound\snd_twinkleStar</sound>
+    <sound>sound\snd_gradiStar</sound>
+    <sound>sound\snd_hurt</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_arrow</sprite>
@@ -99,18 +101,23 @@
     <background>background\bg_9_2</background>
     <background>background\bg_9_3</background>
     <background>background\titleScreen2</background>
+    <background>background\bg_win</background>
+    <background>background\bg_gameOver</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_gradiStars</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_menu2.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_options</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_arrow</object>
+    <object>objects\obj_winArrow</object>
+    <object>objects\obj_loseArrow</object>
     <object>objects\obj_help</object>
     <object>objects\obj_quit</object>
     <object>objects\obj_play</object>
@@ -158,6 +165,8 @@
     <room>rooms\titleScreen</room>
     <room>rooms\gameScreen</room>
     <room>rooms\infoPage</room>
+    <room>rooms\loseScreen</room>
+    <room>rooms\winScreen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
