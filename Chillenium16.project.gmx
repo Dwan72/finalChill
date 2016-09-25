@@ -44,6 +44,7 @@
       <sprite>sprites\helpScreen</sprite>
     </sprites>
     <sprite>sprites\spr_returnP</sprite>
+    <sprite>sprites\spr_life_counter</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -111,6 +112,7 @@
     <object>objects\obj_tempbgcontroller</object>
     <object>objects\obj_helpScreen</object>
     <object>objects\obj_pressP</object>
+    <object>objects\obj_asteroid</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\titleScreen</room>
