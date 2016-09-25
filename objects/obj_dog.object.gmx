@@ -73,7 +73,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>-100</sprite>
+            <sprite>spr_dog</sprite>
           </argument>
           <argument>
             <kind>0</kind>

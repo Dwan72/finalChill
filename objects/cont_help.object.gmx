@@ -25,7 +25,68 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>pauseSurf = surface_create(view_wview[0], view_hview[0]);
+            <string>var screen;
+switch(obj_dog.whichDog) {
+    case 0:{
+        instance_create(room_width/2, room_height/2, obj_pause1);
+        instance_create(room_width/2, room_height/2 - 300, obj_stillDog);
+        screen = obj_pause1;
+        break;
+    }
+    case 1:{
+        instance_create(room_width/2, room_height/2, obj_pause2);
+        instance_create(room_width/2, room_height/2 - 300, obj_stillRocket);
+        screen = obj_pause2;
+        break;
+    }
+    case 2:{
+        instance_create(room_width/2, room_height/2, obj_pause3);
+        instance_create(room_width/2, room_height/2 - 300, obj_stillRobot);
+        screen = obj_pause3;
+        break;
+    }    
+    case 3:{
+        instance_create(room_width/2, room_height/2, obj_pause4);
+        instance_create(room_width/2, room_height/2 - 300, obj_stillStilts);
+        screen = obj_pause4;
+        break;
+    }   
+    case 4:{
+        instance_create(room_width/2, room_height/2, obj_pause5);
+        instance_create(room_width/2, room_height/2 - 300, obj_stillWing);
+        screen = obj_pause5;
+        break;
+    }
+    case 5:{
+        instance_create(room_width/2, room_height/2, obj_pause6);
+        instance_create(room_width/2, room_height/2 - 300, obj_stillBall);
+        screen = obj_pause6;
+        break;   
+    }
+    case 6:{
+        instance_create(room_width/2, room_height/2, obj_pause7);
+        instance_create(room_width/2, room_height/2 - 300, obj_stillCloud);
+        screen = obj_pause7;
+        break;   
+    }
+    case 7:{
+        instance_create(room_width/2, room_height/2, obj_pause8);
+        instance_create(room_width/2, room_height/2 - 300, obj_stillFluffy);
+        screen = obj_pause8;
+        break;
+    }
+    case 8:{
+        instance_create(room_width/2, room_height/2, obj_pause9);
+        instance_create(room_width/2, room_height/2 - 300, obj_stillEye);
+        screen = obj_pause9;
+        break;
+    }
+}
+
+
+
+
+pauseSurf = surface_create(view_wview[0], view_hview[0]);
 
 surface_set_target(pauseSurf);
 draw_clear_alpha(c_black, 0);
@@ -42,6 +103,9 @@ with(all) {
 
 surface_reset_target();
 instance_deactivate_all(true);
+
+instance_activate_object(screen);
+
 background_hspeed[bg_backdrop] = 0;
 background_hspeed[bg_extraStars] = 0;
 background_hspeed[bg_sun] = 0;
@@ -49,44 +113,6 @@ background_hspeed[bg_planetoids] = 0;
 visible = true;
 instance_create(512, 700, obj_pressP);
 
-switch(obj_dog.whichDog) {
-    case 0:{
-        instance_create(room_width/2, room_height/2, spr_pause1);
-        break;
-    }
-    case 1:{
-        instance_create(room_width/2, room_height/2, spr_pause2);
-        break;
-    }
-    case 2:{
-        instance_create(room_width/2, room_height/2, spr_pause3);
-        break;
-    }    
-    case 3:{
-        instance_create(room_width/2, room_height/2, spr_pause4);
-        break;
-    }   
-    case 4:{
-        instance_create(room_width/2, room_height/2, spr_pause5);
-        break;
-    }
-    case 5:{
-        instance_create(room_width/2, room_height/2, spr_pause6);
-        break;   
-    }
-    case 6:{
-        instance_create(room_width/2, room_height/2, spr_pause7);
-        break;   
-    }
-    case 7:{
-        instance_create(room_width/2, room_height/2, spr_pause8);
-        break;
-    }
-    case 8:{
-        instance_create(room_width/2, room_height/2, spr_pause9);
-        break;
-    }
-}
 
 
 </string>
@@ -172,6 +198,8 @@ background_hspeed[bg_backdrop] = -1;
 background_hspeed[bg_extraStars] = -2;
 background_hspeed[bg_sun] = -3;
 background_hspeed[bg_planetoids] = -4;
+
+
 
 </string>
           </argument>
