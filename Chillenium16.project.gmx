@@ -49,6 +49,17 @@
     </sprites>
     <sprite>sprites\spr_returnP</sprite>
     <sprite>sprites\spr_life_counter</sprite>
+    <sprites name="spr_pauseStates">
+      <sprite>sprites\spr_pause1</sprite>
+      <sprite>sprites\spr_pause2</sprite>
+      <sprite>sprites\spr_pause3</sprite>
+      <sprite>sprites\spr_pause4</sprite>
+      <sprite>sprites\spr_pause5</sprite>
+      <sprite>sprites\spr_pause6</sprite>
+      <sprite>sprites\spr_pause7</sprite>
+      <sprite>sprites\spr_pause8</sprite>
+      <sprite>sprites\spr_pause9</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -97,13 +108,7 @@
     <object>objects\obj_play</object>
     <objects name="obj_dogs">
       <object>objects\obj_titleDog</object>
-      <object>objects\obj_dog1</object>
       <object>objects\obj_dog</object>
-      <object>objects\obj_rocket</object>
-      <object>objects\obj_cloud</object>
-      <object>objects\obj_robot</object>
-      <object>objects\obj_ball</object>
-      <object>objects\obj_wing</object>
     </objects>
     <object>objects\obj_twinkleStar</object>
     <object>objects\obj_gradiStar</object>
@@ -117,6 +122,28 @@
     <object>objects\obj_helpScreen</object>
     <object>objects\obj_pressP</object>
     <object>objects\obj_asteroid</object>
+    <objects name="obj_stillDogs">
+      <object>objects\obj_stillDog</object>
+      <object>objects\obj_stillRocket</object>
+      <object>objects\obj_stillRobot</object>
+      <object>objects\obj_stillStilts</object>
+      <object>objects\obj_stillWing</object>
+      <object>objects\obj_stillBall</object>
+      <object>objects\obj_stillCloud</object>
+      <object>objects\obj_stillEye</object>
+      <object>objects\obj_stillFluffy</object>
+    </objects>
+    <objects name="obj_pauseStates">
+      <object>objects\obj_pause1</object>
+      <object>objects\obj_pause2</object>
+      <object>objects\obj_pause3</object>
+      <object>objects\obj_pause4</object>
+      <object>objects\obj_pause5</object>
+      <object>objects\obj_pause6</object>
+      <object>objects\obj_pause7</object>
+      <object>objects\obj_pause8</object>
+      <object>objects\obj_pause9</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\titleScreen</room>
