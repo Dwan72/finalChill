@@ -64,8 +64,15 @@
     </sprites>
     <sprite>sprites\spr_pPause</sprite>
     <sprites name="woundedWarrior">
-      <sprite>sprites\wounded1</sprite>
+      <sprite>sprites\spr_woundDog</sprite>
       <sprite>sprites\spr_woundRocket</sprite>
+      <sprite>sprites\spr_woundRobot</sprite>
+      <sprite>sprites\spr_woundFluffy</sprite>
+      <sprite>sprites\spr_woundBall</sprite>
+      <sprite>sprites\spr_woundStilts</sprite>
+      <sprite>sprites\spr_woundWing</sprite>
+      <sprite>sprites\spr_woundBug</sprite>
+      <sprite>sprites\spr_woundEye</sprite>
     </sprites>
     <sprite>sprites\comet</sprite>
   </sprites>
