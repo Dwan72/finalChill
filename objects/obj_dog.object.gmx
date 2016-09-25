@@ -1488,7 +1488,7 @@ if keyboard_check(vk_down)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>30</string>
+            <string>20</string>
           </argument>
         </arguments>
       </action>
@@ -3220,7 +3220,7 @@ background_index[4] = -1;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>80</string>
+            <string>40</string>
           </argument>
         </arguments>
       </action>

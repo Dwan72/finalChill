@@ -88,7 +88,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="7" enumb="1">
+    <event eventtype="7" enumb="0">
       <action>
         <libid>1</libid>
         <id>301</id>
@@ -105,7 +105,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>room_speed*20 - obj_dog.whichDog</string>
+            <string>room_speed*7 + irandom_range(0,5) - obj_dog.whichDog</string>
           </argument>
           <argument>
             <kind>4</kind>
