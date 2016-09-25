@@ -54,7 +54,7 @@
     <instance objName="obj_helpScreen" x="512" y="384" name="inst_7EB70BD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_titleDog" x="512" y="370" name="inst_BD036156" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_darkOverlay" x="64" y="288" name="inst_316374EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pressP" x="512" y="704" name="inst_E08B06E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_returnP" x="512" y="704" name="inst_F94AE592" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
