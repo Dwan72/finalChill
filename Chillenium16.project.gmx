@@ -61,6 +61,19 @@
       <sprite>sprites\spr_pause9</sprite>
     </sprites>
     <sprite>sprites\spr_pPause</sprite>
+    <sprites name="spr_wounded">
+      <sprite>sprites\spr_woundDog</sprite>
+      <sprite>sprites\spr_woundRocket</sprite>
+      <sprite>sprites\spr_woundRobot</sprite>
+      <sprite>sprites\spr_woundStilts</sprite>
+      <sprite>sprites\spr_woundWing</sprite>
+      <sprite>sprites\spr_woundFluffy</sprite>
+      <sprite>sprites\spr_woundBall</sprite>
+      <sprite>sprites\spr_woundBug</sprite>
+      <sprite>sprites\spr_woundEye</sprite>
+    </sprites>
+    <sprite>sprites\spr_cursor</sprite>
+    <sprite>sprites\spr_pressP</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -98,6 +111,7 @@
     <background>background\bg_9_1</background>
     <background>background\bg_9_2</background>
     <background>background\bg_9_3</background>
+    <background>background\titleScreen2</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_gradiStars</path>
@@ -151,6 +165,8 @@
       <object>objects\obj_pause9</object>
     </objects>
     <object>objects\obj_pPause</object>
+    <object>objects\obj_titleDawg</object>
+    <object>objects\obj_pressP</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\titleScreen</room>
