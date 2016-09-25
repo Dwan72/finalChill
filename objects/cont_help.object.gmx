@@ -37,7 +37,7 @@ switch(obj_dog.whichDog) {
     }
     case 1:{
         instance_create(room_width/2, room_height/2, obj_pause2);
-        instance_create(room_width/2, room_height/2 - 80, obj_stillRocket);
+        instance_create(room_width/2, room_height/2 - 60, obj_stillRocket);
         screen = obj_pause2;
         dogType = obj_stillRocket;
         break;
@@ -51,21 +51,21 @@ switch(obj_dog.whichDog) {
     }    
     case 3:{
         instance_create(room_width/2, room_height/2, obj_pause4);
-        instance_create(room_width/2, room_height/2 - 80, obj_stillStilts);
+        instance_create(room_width/2, room_height/2 - 22, obj_stillStilts);
         screen = obj_pause4;
         dogType = obj_stillStilts;
         break;
     }   
     case 4:{
         instance_create(room_width/2, room_height/2, obj_pause5);
-        instance_create(room_width/2, room_height/2 - 80, obj_stillWing);
+        instance_create(room_width/2, room_height/2 - 65, obj_stillWing);
         screen = obj_pause5;
         dogType = obj_stillWing;
         break;
     }
     case 5:{
         instance_create(room_width/2, room_height/2, obj_pause6);
-        instance_create(room_width/2, room_height/2 - 80, obj_stillBall);
+        instance_create(room_width/2, room_height/2 - 70, obj_stillBall);
         screen = obj_pause6;
         dogType = obj_stillBall;
         break;   
@@ -79,7 +79,7 @@ switch(obj_dog.whichDog) {
     }
     case 7:{
         instance_create(room_width/2, room_height/2, obj_pause8);
-        instance_create(room_width/2, room_height/2 - 80, obj_stillFluffy);
+        instance_create(room_width/2, room_height/2 - 70, obj_stillFluffy);
         screen = obj_pause8;
         dogType = obj_stillFluffy;
         break;
