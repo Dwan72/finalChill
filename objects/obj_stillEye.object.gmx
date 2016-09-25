@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="3" enumb="0">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>541</id>
@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>spr_cloud</sprite>
+            <sprite>spr_eye</sprite>
           </argument>
           <argument>
             <kind>0</kind>

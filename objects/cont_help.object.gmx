@@ -26,59 +26,70 @@
           <argument>
             <kind>1</kind>
             <string>var screen;
+var dogType;
 switch(obj_dog.whichDog) {
     case 0:{
         instance_create(room_width/2, room_height/2, obj_pause1);
-        instance_create(room_width/2, room_height/2 - 300, obj_stillDog);
+        instance_create(room_width/2, room_height/2 - 80, obj_stillDog);
         screen = obj_pause1;
+        dogType = obj_stillDog;
         break;
     }
     case 1:{
         instance_create(room_width/2, room_height/2, obj_pause2);
-        instance_create(room_width/2, room_height/2 - 300, obj_stillRocket);
+        instance_create(room_width/2, room_height/2 - 80, obj_stillRocket);
         screen = obj_pause2;
+        dogType = obj_stillRocket;
         break;
     }
     case 2:{
         instance_create(room_width/2, room_height/2, obj_pause3);
-        instance_create(room_width/2, room_height/2 - 300, obj_stillRobot);
+        instance_create(room_width/2, room_height/2 - 80, obj_stillRobot);
         screen = obj_pause3;
+        dogType = obj_stillRobot;
         break;
     }    
     case 3:{
         instance_create(room_width/2, room_height/2, obj_pause4);
-        instance_create(room_width/2, room_height/2 - 300, obj_stillStilts);
+        instance_create(room_width/2, room_height/2 - 80, obj_stillStilts);
         screen = obj_pause4;
+        dogType = obj_stillStilts;
         break;
     }   
     case 4:{
         instance_create(room_width/2, room_height/2, obj_pause5);
-        instance_create(room_width/2, room_height/2 - 300, obj_stillWing);
+        instance_create(room_width/2, room_height/2 - 80, obj_stillWing);
         screen = obj_pause5;
+        dogType = obj_stillWing;
         break;
     }
     case 5:{
         instance_create(room_width/2, room_height/2, obj_pause6);
-        instance_create(room_width/2, room_height/2 - 300, obj_stillBall);
+        instance_create(room_width/2, room_height/2 - 80, obj_stillBall);
         screen = obj_pause6;
+        dogType = obj_stillBall;
         break;   
     }
     case 6:{
         instance_create(room_width/2, room_height/2, obj_pause7);
-        instance_create(room_width/2, room_height/2 - 300, obj_stillCloud);
+        instance_create(room_width/2, room_height/2 - 80, obj_stillCloud);
         screen = obj_pause7;
+        dogType = obj_stillCloud;
         break;   
     }
     case 7:{
         instance_create(room_width/2, room_height/2, obj_pause8);
-        instance_create(room_width/2, room_height/2 - 300, obj_stillFluffy);
+        instance_create(room_width/2, room_height/2 - 80, obj_stillFluffy);
         screen = obj_pause8;
+        dogType = obj_stillFluffy;
         break;
     }
     case 8:{
         instance_create(room_width/2, room_height/2, obj_pause9);
-        instance_create(room_width/2, room_height/2 - 300, obj_stillEye);
+        instance_create(room_width/2, room_height/2 - 80, obj_stillEye);
         screen = obj_pause9;
+        dogType = obj_stillEye;
+        
         break;
     }
 }
@@ -103,7 +114,7 @@ with(all) {
 
 surface_reset_target();
 instance_deactivate_all(true);
-
+instance_activate_object(dogType);
 instance_activate_object(screen);
 
 background_hspeed[bg_backdrop] = 0;
@@ -111,7 +122,6 @@ background_hspeed[bg_extraStars] = 0;
 background_hspeed[bg_sun] = 0;
 background_hspeed[bg_planetoids] = 0;
 visible = true;
-instance_create(512, 700, obj_pressP);
 
 
 

@@ -55,6 +55,7 @@
     <instance objName="obj_pickupController" x="0" y="0" name="inst_9AE332B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cont_main" x="0" y="192" name="inst_748EF733" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tempbgcontroller" x="128" y="0" name="inst_A36D95BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pPause" x="992" y="736" name="inst_EEC6A050" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

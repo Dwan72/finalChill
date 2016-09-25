@@ -60,6 +60,7 @@
       <sprite>sprites\spr_pause8</sprite>
       <sprite>sprites\spr_pause9</sprite>
     </sprites>
+    <sprite>sprites\spr_pPause</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -126,7 +127,6 @@
     </objects>
     <object>objects\obj_tempbgcontroller</object>
     <object>objects\obj_helpScreen</object>
-    <object>objects\obj_pressP</object>
     <object>objects\obj_asteroid</object>
     <objects name="obj_stillDogs">
       <object>objects\obj_stillDog</object>
@@ -150,6 +150,7 @@
       <object>objects\obj_pause8</object>
       <object>objects\obj_pause9</object>
     </objects>
+    <object>objects\obj_pPause</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\titleScreen</room>
