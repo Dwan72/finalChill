@@ -165,8 +165,8 @@
     <room>rooms\titleScreen</room>
     <room>rooms\gameScreen</room>
     <room>rooms\infoPage</room>
-    <room>rooms\winScreen</room>
     <room>rooms\loseScreen</room>
+    <room>rooms\winScreen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

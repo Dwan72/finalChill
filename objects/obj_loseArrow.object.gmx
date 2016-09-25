@@ -101,17 +101,7 @@ for (m = 0; m &lt; array_length_1d(m); m += 1) {
     draw_text(x + space * m, y, string(menu[m]));
     
 }
-
-
-if (mpos == 0){
-    draw_sprite(sprite_index, 0, x, y);
-}
-if (mpos == 1) {
-    draw_sprite(sprite_index, 0, x + 480-160, y);
-}
-if (mpos == 2) {
-    draw_sprite(sprite_index, 0, 810, y);
-}
+draw_sprite(sprite_index, 0, x + (480-160) * mpos, y);
 </string>
           </argument>
         </arguments>
