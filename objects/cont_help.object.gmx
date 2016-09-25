@@ -86,7 +86,7 @@ switch(obj_dog.whichDog) {
     }
     case 8:{
         instance_create(room_width/2, room_height/2, obj_pause9);
-        instance_create(room_width/2, room_height/2 - 80, obj_stillEye);
+        instance_create(505, 355, obj_stillEye);
         screen = obj_pause9;
         dogType = obj_stillEye;
         

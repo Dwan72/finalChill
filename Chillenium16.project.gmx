@@ -10,6 +10,10 @@
     <sound>sound\snd_twinkleStar</sound>
     <sound>sound\snd_gradiStar</sound>
     <sound>sound\snd_hurt</sound>
+    <sound>sound\bgm_reverb</sound>
+    <sound>sound\snd_lose</sound>
+    <sound>sound\bgm_stage</sound>
+    <sound>sound\snd_gameWin</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_arrow</sprite>
@@ -187,6 +191,7 @@
     <room>rooms\infoPage</room>
     <room>rooms\loseScreen</room>
     <room>rooms\winScreen</room>
+    <room>rooms\room5</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
