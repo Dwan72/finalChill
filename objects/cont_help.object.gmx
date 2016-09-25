@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>0</visible>
-  <depth>0</depth>
+  <depth>3</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -47,6 +47,47 @@ background_hspeed[bg_extraStars] = 0;
 background_hspeed[bg_sun] = 0;
 background_hspeed[bg_planetoids] = 0;
 visible = true;
+instance_create(512, 700, obj_pressP);
+
+switch(obj_dog.whichDog) {
+    case 0:{
+        instance_create(room_width/2, room_height/2, spr_pause1);
+        break;
+    }
+    case 1:{
+        instance_create(room_width/2, room_height/2, spr_pause2);
+        break;
+    }
+    case 2:{
+        instance_create(room_width/2, room_height/2, spr_pause3);
+        break;
+    }    
+    case 3:{
+        instance_create(room_width/2, room_height/2, spr_pause4);
+        break;
+    }   
+    case 4:{
+        instance_create(room_width/2, room_height/2, spr_pause5);
+        break;
+    }
+    case 5:{
+        instance_create(room_width/2, room_height/2, spr_pause6);
+        break;   
+    }
+    case 6:{
+        instance_create(room_width/2, room_height/2, spr_pause7);
+        break;   
+    }
+    case 7:{
+        instance_create(room_width/2, room_height/2, spr_pause8);
+        break;
+    }
+    case 8:{
+        instance_create(room_width/2, room_height/2, spr_pause9);
+        break;
+    }
+}
+
 
 </string>
           </argument>
