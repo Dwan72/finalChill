@@ -121,7 +121,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_twinkleStar</object>
+            <object>obj_asteroid</object>
           </argument>
           <argument>
             <kind>0</kind>
