@@ -63,6 +63,11 @@
       <sprite>sprites\spr_pause9</sprite>
     </sprites>
     <sprite>sprites\spr_pPause</sprite>
+    <sprites name="woundedWarrior">
+      <sprite>sprites\wounded1</sprite>
+      <sprite>sprites\spr_woundRocket</sprite>
+    </sprites>
+    <sprite>sprites\comet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
