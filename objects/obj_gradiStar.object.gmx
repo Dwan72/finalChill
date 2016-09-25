@@ -87,7 +87,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>0.5</string>
+            <string>0.5 + (0.1 * obj_dog.whichDog)</string>
           </argument>
         </arguments>
       </action>

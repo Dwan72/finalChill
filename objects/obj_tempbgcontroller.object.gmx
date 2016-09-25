@@ -8,6 +8,64 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="9" enumb="56">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>background_index[0] = bg_9_1;
+background_index[1] = bg_9_2;
+background_index[2] = bg_9_3;
+background_index[3] = -1;
+background_index[4] = -1;
+
+obj_dog.whichDog = 7;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="55">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>background_index[0] = bg_8_1;
+background_index[1] = bg_8_2;
+background_index[2] = bg_8_3;
+background_index[3] = -1;
+background_index[4] = -1;
+
+obj_dog.whichDog = 6;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="9" enumb="54">
       <action>
         <libid>1</libid>
@@ -30,6 +88,8 @@ background_index[1] = bg_7_2;
 background_index[2] = bg_7_3;
 background_index[3] = bg_7_4;
 background_index[4] = -1;
+
+obj_dog.whichDog = 5;
 </string>
           </argument>
         </arguments>
@@ -57,6 +117,8 @@ background_index[1] = bg_6_2;
 background_index[2] = bg_6_3;
 background_index[3] = bg_6_4;
 background_index[4] = -1;
+
+obj_dog.whichDog = 4;
 </string>
           </argument>
         </arguments>
@@ -84,6 +146,8 @@ background_index[1] = bg_5_2;
 background_index[2] = bg_5_3;
 background_index[3] = bg_5_4;
 background_index[4] = bg_5_5;
+
+obj_dog.whichDog = 3;
 </string>
           </argument>
         </arguments>
@@ -111,6 +175,8 @@ background_index[1] = bg_4_2;
 background_index[2] = bg_4_3;
 background_index[3] = bg_4_4;
 background_index[4] = -1;
+
+obj_dog.whichDog = 3;
 </string>
           </argument>
         </arguments>
@@ -138,6 +204,8 @@ background_index[1] = bg_3_2;
 background_index[2] = bg_3_3;
 background_index[3] = -1;
 background_index[4] = -1;
+
+obj_dog.whichDog = 2;
 </string>
           </argument>
         </arguments>
@@ -165,6 +233,8 @@ background_index[1] = bg_2_2;
 background_index[2] = bg_extraStars;
 background_index[3] = -1;
 background_index[4] = -1;
+
+obj_dog.whichDog = 1;
 </string>
           </argument>
         </arguments>

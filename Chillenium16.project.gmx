@@ -91,6 +91,12 @@
     <background>background\bg_6_2</background>
     <background>background\bg_6_3</background>
     <background>background\bg_6_4</background>
+    <background>background\bg_8_1</background>
+    <background>background\bg_8_2</background>
+    <background>background\bg_8_3</background>
+    <background>background\bg_9_1</background>
+    <background>background\bg_9_2</background>
+    <background>background\bg_9_3</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_gradiStars</path>
